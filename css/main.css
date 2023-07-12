@@ -19,6 +19,21 @@
     height: 99%;
 }
 
+.menu__images {
+    display: flex;
+    flex-direction: column;
+  }
+
+@media (width >= 768px) {
+    .menu__images {
+    flex-direction: row;
+    }
+}
+
+.img-fluid{
+    padding: 50px;
+}
+
 .content__text{
     text-align: center;
 }
@@ -41,19 +56,4 @@
     height: 55px;
     border-radius: 5px;
     display: inline-block;
-}
-
-.menu__images {
-    display: flex;
-    flex-direction: column;
-  }
-
-@media (width >= 768px) {
-    .menu__images {
-    flex-direction: row;
-    }
-}
-
-.img-fluid{
-    padding: 50px;
 }
