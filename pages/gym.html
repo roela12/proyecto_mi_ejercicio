@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Ejercicio</title>
+    <!--icono-->
+    <link rel="shortcut icon" href="../images/icon.png">
+    <!--boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <!--header-->
+    <header class="container__header">
+        <nav class="navbar navbar-expand-lg bg-body-secondary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img class="header__icon" src="../images/icon.png" alt="icono">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/mirutina.html">Mi Rutina</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar Ejercicio" aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--fin header-->
+
+    <!--main cartas-->
+    <main class="container__cards">
+        <br>
+        <h2 class="cards__title">Gym:</h2>
+        <h2 class="cards__title">Torso:</h2>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../images/press_de_banca.jpg" class="img-fluid rounded-start" alt="press de banca">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Press de banca:</h5>
+                        <p class="card-text">El ejercicio de press de banca es uno de los ejercicios más populares para desarrollar la fuerza y el tamaño de los músculos del pecho, los hombros y los tríceps. Es un ejercicio compuesto que implica empujar una barra cargada desde el pecho hasta la extensión completa de los brazos.</p>
+                        <button class="cards__button btn btn-primary" type="submit">Agregar a mi rutina</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../images/jalon_al_pecho.webp" class="img-fluid rounded-start" alt="jalon al pecho">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Jalon al pecho:</h5>
+                        <p class="card-text">El ejercicio de jalon al pecho, también conocido como jalon frontal o lat pulldown en inglés, es un ejercicio de fuerza que se enfoca en trabajar principalmente los músculos de la espalda, en particular los músculos anchos de la espalda (latissimus dorsi), los bíceps y los músculos de los hombros.</p>
+                        <button class="cards__button btn btn-primary" type="submit">Agregar a mi rutina</button>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../images/extension_de_triceps.jpg" class="img-fluid rounded-start" alt="extension de triceps">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Extension de triceps:</h5>
+                        <p class="card-text">El ejercicio de extensión de tríceps, también conocido como extensión de tríceps en polea o tricep pushdown en inglés, es un ejercicio de aislamiento que se enfoca en trabajar los músculos tríceps en la parte posterior de los brazos. Es un ejercicio muy efectivo para fortalecer y tonificar los tríceps.</p>
+                        <button class="cards__button btn btn-primary" type="submit">Agregar a mi rutina</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--fin main cartas-->
+
+    <!--footer-->
+    <footer class="container__footer bg-body-secondary">
+        <h2 class="footer__title">Contacto:</h2>
+        <div class="footer__icons">
+            <a href="https://www.instagram.com/rodrimartinez24/?hl=es-la"><img class="footer__logo" src="../images/instagram.webp" alt="instagram logo"></a>
+            <a href="https://www.linkedin.com/in/rodrigo-elias-martinez-jalil-04b6a2242/"><img class="footer__logo" src="../images/linkedIn.webp" alt="linkedin logo"></a>
+            <a href="https://github.com/roela12"><img class="footer__logo" src="../images/github.webp" alt="github logo"></a>
+        </div>
+    </footer>
+    <!--fin footer-->
+    <!--boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
