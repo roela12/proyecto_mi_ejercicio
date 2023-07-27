@@ -6,10 +6,13 @@
     font-weight: bold;
 }
 
-.nav-link{
+.nav-link {
     color: $primary_color;
+    &:hover{
+        color: $tertiary_color;
+    }
 }
 
-.header-color{
+.header-color {
     background-color: $secondary_color;
 }

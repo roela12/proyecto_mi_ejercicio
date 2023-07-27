@@ -7,13 +7,16 @@
 .header__title {
   font-size: 100%;
   text-transform: uppercase;
-  color: #94D7F2;
+  color: white;
   text-align: center;
   font-weight: bold;
 }
 
 .nav-link {
-  color: #94D7F2;
+  color: white;
+}
+.nav-link:hover {
+  color: #04162e;
 }
 
 .header-color {
@@ -24,11 +27,10 @@
   width: 100%;
   height: 100%;
   border-radius: 1%;
-  transition: width 1s, height 1s;
+  transition: transform 1s;
 }
 .menu__image:hover, .content__image:hover {
-  width: 99%;
-  height: 99%;
+  transform: scale(0.98);
 }
 
 .menu__images {
@@ -54,7 +56,7 @@
 .card-menu-title {
   font-size: 20px;
   text-align: center;
-  color: #94D7F2;
+  color: white;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -65,16 +67,25 @@
 }
 
 .content-color {
-  background-color: #94D7F2;
+  background-color: white;
+}
+
+.card-title, .card-text {
+  color: #14488C;
 }
 
 .btn-primary {
   background-color: #14488C;
-  border-color: #94D7F2;
+  border-color: white;
+}
+
+.navbar-toggler {
+  color: white;
+  border-color: white;
 }
 
 .footer__title {
-  color: #94D7F2;
+  color: white;
 }
 
 .container__footer {
@@ -90,11 +101,10 @@
   height: 55px;
   border-radius: 5px;
   display: inline-block;
-  transition: width 1s, height 1s;
+  transition: transform 1s;
 }
 .footer__logo:hover {
-  width: 50px;
-  height: 50px;
+  transform: scale(0.85);
 }
 
 .footer-color {

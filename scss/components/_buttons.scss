@@ -1,4 +1,9 @@
-.btn-primary{
+.btn-primary {
     background-color: $secondary_color;
+    border-color: $primary_color;
+}
+
+.navbar-toggler {
+    color: $primary_color;
     border-color: $primary_color;
 }

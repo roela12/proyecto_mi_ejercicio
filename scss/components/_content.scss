@@ -20,6 +20,10 @@
     color: $secondary_color;
 }
 
-.content-color{
+.content-color {
     background-color: $primary_color;
+}
+
+.card-title, .card-text {
+    color: $secondary_color;
 }
