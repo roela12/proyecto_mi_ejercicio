@@ -1,3 +1,25 @@
+@mixin size-center {
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu__title, .content__title, .cards__title {
+    @include size-center;
+    color: $secondary_color;
+}
+
+.card-menu-title {
+    @include size-center;
+    color: $primary_color;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .content__text {
     text-align: center;
+    color: $secondary_color;
+}
+
+.content-color{
+    background-color: $primary_color;
 }
