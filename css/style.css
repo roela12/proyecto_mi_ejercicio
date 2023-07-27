@@ -4,7 +4,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu__title, .content__title, .cards__title {
+.menu__title, .content__title, .cards__title, .footer__title {
   font-size: 20px;
   text-align: center;
 }
@@ -44,11 +44,6 @@
   grid-template-rows: 1fr;
   align-items: center;
   justify-items: end;
-}
-
-.footer__title {
-  font-size: 20px;
-  text-align: center;
 }
 
 .footer__logo {

@@ -1,0 +1,14 @@
+.container__footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: end;
+}
+
+.footer__logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+    display: inline-block;
+}
