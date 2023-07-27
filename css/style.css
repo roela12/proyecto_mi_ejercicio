@@ -23,10 +23,10 @@
 .menu__image, .content__image {
   width: 100%;
   height: 100%;
+  border-radius: 1%;
   transition: width 1s, height 1s;
 }
-
-.menu__image:hover {
+.menu__image:hover, .content__image:hover {
   width: 99%;
   height: 99%;
 }
@@ -92,7 +92,6 @@
   display: inline-block;
   transition: width 1s, height 1s;
 }
-
 .footer__logo:hover {
   width: 50px;
   height: 50px;
