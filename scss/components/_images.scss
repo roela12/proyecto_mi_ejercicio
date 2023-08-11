@@ -13,7 +13,7 @@
     flex-direction: column;
   }
 
-  @media (width >= 768px) {
+@media (width >= 768px) {
     .menu__images {
     flex-direction: row;
     }
