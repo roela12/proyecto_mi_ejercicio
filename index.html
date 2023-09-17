@@ -1,99 +1,152 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--SEO-->
-    <meta name="description" content="Arma tus propias rutinas de gimnasio, calistenia o crossfit con los ejercicios que usted quiera.">
-    <meta name="keywords" content="gym, gimnasio, fitness, salud, calistenia, crossfit, wod, entrenamiento, workout, ejercicio, rutina, armar">
-    <meta name="author" content="Rodrigo Martinez">
+    <meta
+      name="description"
+      content="Arma tus propias rutinas de gimnasio, calistenia o crossfit con los ejercicios que usted quiera."
+    />
+    <meta
+      name="keywords"
+      content="gym, gimnasio, fitness, salud, calistenia, crossfit, wod, entrenamiento, workout, ejercicio, rutina, armar"
+    />
+    <meta name="author" content="Rodrigo Martinez" />
     <title>Mi Ejercicio - menu principal de rutinas</title>
     <!--icon-->
-    <link rel="shortcut icon" href="./images/icon.png">
+    <link rel="shortcut icon" href="./images/icon.png" />
     <!--boostrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <!--CSS-->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <!--header-->
     <header class="container__header">
-        <nav class="navbar navbar-expand-lg header-color">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div>
-                    <img class="header__icon" src="./images/icon.png" alt="icono">
-                    <h1 class="header__title">mi ejercicio</h1>
-                </div>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/mirutina.html">Mi Rutina</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar Ejercicio" aria-label="Search">
-                        <button class="btn btn-primary" type="submit">Buscar</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg header-color">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div>
+            <img class="header__icon" src="./images/icon.png" alt="icono" />
+            <h1 class="header__title">mi ejercicio</h1>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/mirutina.html">Mi Rutina</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar Ejercicio"
+                aria-label="Search"
+              />
+              <button class="btn btn-primary" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
     <!--fin header-->
 
     <!--menu principal-->
     <main class="container__menu content-color">
-        <div>
-            <h2 class="menu__title">Arma tu rutina ideal con los mejores ejercicios de calistenia, gym o crossfit:</h2>
-        </div>
-        <div class="menu__images">
-            <a href="./pages/calistenia.html">
-                <div class="card text-bg-dark menu__image">
-                    <img src="./images/calistenia.jpg" class="card-img" alt="calistenia">
-                    <div class="card-img-overlay">
-                        <h4 class="card-menu-title">Calistenia</h4>
-                    </div>
-                </div>
-            </a>
-            <a href="./pages/gym.html">
-                <div class="card text-bg-dark menu__image">
-                    <img src="./images/gym.jpg" class="card-img" alt="gym">
-                    <div class="card-img-overlay">
-                        <h4 class="card-menu-title">Gym</h4>
-                    </div>
-                </div>
-            </a>
-            <a href="./pages/crossfit.html">
-                <div class="card text-bg-dark menu__image">
-                    <img src="./images/crossfit.jpg" class="card-img" alt="crossfit">
-                    <div class="card-img-overlay">
-                        <h4 class="card-menu-title">Crossfit</h4>
-                    </div>
-                </div>
-            </a>
-        </div>
+      <div>
+        <h2 class="menu__title">
+          Arma tu rutina ideal con los mejores ejercicios de calistenia, gym o
+          crossfit:
+        </h2>
+      </div>
+      <div class="menu__images">
+        <a href="./pages/calistenia.html">
+          <div class="card text-bg-dark menu__image">
+            <img
+              src="./images/calistenia.jpg"
+              class="card-img"
+              alt="calistenia"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-menu-title">Calistenia</h4>
+            </div>
+          </div>
+        </a>
+        <a href="./pages/gym.html">
+          <div class="card text-bg-dark menu__image">
+            <img src="./images/gym.jpg" class="card-img" alt="gym" />
+            <div class="card-img-overlay">
+              <h4 class="card-menu-title">Gym</h4>
+            </div>
+          </div>
+        </a>
+        <a href="./pages/crossfit.html">
+          <div class="card text-bg-dark menu__image">
+            <img src="./images/crossfit.jpg" class="card-img" alt="crossfit" />
+            <div class="card-img-overlay">
+              <h4 class="card-menu-title">Crossfit</h4>
+            </div>
+          </div>
+        </a>
+      </div>
     </main>
     <!--fin menu principal-->
 
     <!--footer-->
     <footer class="container__footer footer-color">
-        <h3 class="footer__title">Contacto:</h3>
-        <div class="footer__icons">
-            <a href="https://www.instagram.com/rodrimartinez24/?hl=es-la"><img class="footer__logo" src="./images/instagram.webp" alt="instagram logo"></a>
-            <a href="https://www.linkedin.com/in/rodrigo-elias-martinez-jalil-04b6a2242/"><img class="footer__logo" src="./images/linkedIn.webp" alt="linkedin logo"></a>
-            <a href="https://github.com/roela12"><img class="footer__logo" src="./images/github.webp" alt="github logo"></a>
-        </div>
+      <h3 class="footer__title">Contacto:</h3>
+      <div class="footer__icons">
+        <a href="https://www.instagram.com/rodrimartinez24/?hl=es-la"
+          ><img
+            class="footer__logo"
+            src="./images/instagram.webp"
+            alt="instagram logo"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/rodrigo-elias-martinez-jalil-04b6a2242/"
+          ><img
+            class="footer__logo"
+            src="./images/linkedIn.webp"
+            alt="linkedin logo"
+        /></a>
+        <a href="https://github.com/roela12"
+          ><img
+            class="footer__logo"
+            src="./images/github.webp"
+            alt="github logo"
+        /></a>
+      </div>
     </footer>
     <!--fin footer-->
     <!--boostrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
